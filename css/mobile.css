@@ -1,0 +1,139 @@
+/*
+    Mobile stylesheet for my portfolio.
+    This file is used for phone-sized screens.
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+
+/* Styles the top section for a smaller screen. */
+header {
+    padding: 20px;
+    text-align: center;
+    /* Adds a pink gradient to the top of the page. */
+background: linear-gradient(to right, #d8a7b1 0%, #c98f9e 100%);
+    color: white;
+}
+
+
+/* Keeps the main heading neat on mobile. */
+header h1 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+
+/* Adds space above the navigation. */
+nav {
+    margin-top: 15px;
+}
+
+
+/*
+    Each navigation link takes most of the screen width.
+    This makes the links easier to tap on a phone.
+*/
+nav a {
+    display: block;
+    width: 90%;
+    margin: 8px auto;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #374151;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/* Changes the link colour when selected with a mouse. */
+nav a:hover {
+    background-color: #6b7280;
+}
+
+
+/*
+    The article uses most of the phone screen.
+    The percentage width keeps the layout fluid.
+*/
+article {
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: white;
+}
+
+
+/* Makes the text easier to read on a small screen. */
+article p {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+
+/* Styles the article heading. */
+article h2 {
+    color: #111827;
+    font-size: 24px;
+}
+
+
+/* Styles the footer for the mobile page. */
+footer {
+    padding: 15px;
+    text-align: center;
+    /* Adds an angled pink gradient to the footer. */
+background: linear-gradient(135deg, #d8a7b1 0%, #b76e79 100%);
+    color: white;
+}
+
+
+/* Keeps the email link visible in the footer. */
+footer a {
+    color: white;
+}
+
+
+/* Makes the profile photo fit well on a phone screen. */
+.profile-photo {
+    width: 70%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Displays one project at a time on small screens. */
+.project-box {
+    width: auto;
+    float: none;
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px solid #cccccc;
+    min-height: 0;
+}
+
+/* Makes the contact form fit a phone screen. */
+form {
+    width: 100%;
+}
+
+/* Makes the form fields easy to use on a phone. */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Styles the submit button. */
+form input[type="submit"] {
+    width: 120px;
+    padding: 10px;
+}
