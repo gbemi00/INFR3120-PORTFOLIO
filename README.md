@@ -48,6 +48,13 @@ I used a monochromatic pink color scheme with neutral colors. I used different s
 
 The color scheme was chosen using the color scheme concepts from Adobe Color.
 
+Main colours used:
+- Dusty pink: #D8A7B1
+- Rose pink: #C98F9E
+- Dark rose: #B76E79
+- Light gray: #F4F4F4
+- Dark gray: #222222
+
 ## Code Sources
 
 The HTML and CSS used in this portfolio are mainly based on concepts and examples taught in the lectures. I adapted the lecture examples to fit the design and content of my portfolio.
